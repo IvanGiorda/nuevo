@@ -1,0 +1,351 @@
+{
+  "toyota": {
+    "modelos": {
+      "Corolla": {
+        "versiones": ["XLi", "XEi", "SEG", "Hybrid"],
+        "especificaciones": {
+          "XLi": {
+            "combustible": "Nafta",
+            "hp": 140,
+            "traccion": "Delantera",
+            "transmision": "Manual 6 vel",
+            "cilindrada": "1.8L",
+            "torque": "173 Nm"
+          },
+          "XEi": {
+            "combustible": "Nafta",
+            "hp": 140,
+            "traccion": "Delantera",
+            "transmision": "CVT",
+            "cilindrada": "1.8L",
+            "torque": "173 Nm"
+          },
+          "SEG": {
+            "combustible": "Nafta",
+            "hp": 169,
+            "traccion": "Delantera",
+            "transmision": "CVT",
+            "cilindrada": "2.0L",
+            "torque": "210 Nm"
+          },
+          "Hybrid": {
+            "combustible": "Híbrido",
+            "hp": 122,
+            "traccion": "Delantera",
+            "transmision": "CVT",
+            "cilindrada": "1.8L",
+            "torque": "142 Nm"
+          }
+        }
+      },
+      "Hilux": {
+        "versiones": ["DX", "SR", "SRV", "SRX"],
+        "especificaciones": {
+          "DX": {
+            "combustible": "Diesel",
+            "hp": 150,
+            "traccion": "4x2",
+            "transmision": "Manual 6 vel",
+            "cilindrada": "2.4L",
+            "torque": "400 Nm"
+          },
+          "SR": {
+            "combustible": "Diesel",
+            "hp": 150,
+            "traccion": "4x2",
+            "transmision": "Automática 6 vel",
+            "cilindrada": "2.4L",
+            "torque": "400 Nm"
+          },
+          "SRV": {
+            "combustible": "Diesel",
+            "hp": 204,
+            "traccion": "4x4",
+            "transmision": "Automática 6 vel",
+            "cilindrada": "2.8L",
+            "torque": "500 Nm"
+          },
+          "SRX": {
+            "combustible": "Diesel",
+            "hp": 204,
+            "traccion": "4x4",
+            "transmision": "Automática 6 vel",
+            "cilindrada": "2.8L",
+            "torque": "500 Nm"
+          }
+        }
+      }
+    }
+  },
+  "ford": {
+    "modelos": {
+      "Mustang": {
+        "versiones": ["EcoBoost", "GT", "Mach 1", "Shelby GT500"],
+        "especificaciones": {
+          "EcoBoost": {
+            "combustible": "Nafta",
+            "hp": 330,
+            "traccion": "Trasera",
+            "transmision": "Automática 10 vel",
+            "cilindrada": "2.3L Turbo",
+            "torque": "475 Nm"
+          },
+          "GT": {
+            "combustible": "Nafta",
+            "hp": 450,
+            "traccion": "Trasera",
+            "transmision": "Automática 10 vel",
+            "cilindrada": "5.0L V8",
+            "torque": "529 Nm"
+          },
+          "Mach 1": {
+            "combustible": "Nafta",
+            "hp": 480,
+            "traccion": "Trasera",
+            "transmision": "Manual 6 vel",
+            "cilindrada": "5.0L V8",
+            "torque": "569 Nm"
+          },
+          "Shelby GT500": {
+            "combustible": "Nafta",
+            "hp": 760,
+            "traccion": "Trasera",
+            "transmision": "Automática 7 vel DCT",
+            "cilindrada": "5.2L V8 SC",
+            "torque": "847 Nm"
+          }
+        }
+      },
+      "Ranger": {
+        "versiones": ["XL", "XLT", "Limited", "Raptor"],
+        "especificaciones": {
+          "XL": {
+            "combustible": "Diesel",
+            "hp": 170,
+            "traccion": "4x2",
+            "transmision": "Manual 6 vel",
+            "cilindrada": "2.0L Turbo",
+            "torque": "405 Nm"
+          },
+          "XLT": {
+            "combustible": "Diesel",
+            "hp": 170,
+            "traccion": "4x4",
+            "transmision": "Automática 10 vel",
+            "cilindrada": "2.0L Turbo",
+            "torque": "405 Nm"
+          },
+          "Limited": {
+            "combustible": "Diesel",
+            "hp": 210,
+            "traccion": "4x4",
+            "transmision": "Automática 10 vel",
+            "cilindrada": "2.0L Bi-Turbo",
+            "torque": "500 Nm"
+          },
+          "Raptor": {
+            "combustible": "Nafta",
+            "hp": 397,
+            "traccion": "4x4",
+            "transmision": "Automática 10 vel",
+            "cilindrada": "3.0L V6 Turbo",
+            "torque": "583 Nm"
+          }
+        }
+      }
+    }
+  },
+  "peugeot": {
+    "modelos": {
+      "405": {
+        "versiones": ["GL", "GR", "SRI", "Mi16"],
+        "especificaciones": {
+          "GL": {
+            "combustible": "Nafta",
+            "hp": 92,
+            "traccion": "Delantera",
+            "transmision": "Manual 5 vel",
+            "cilindrada": "1.6L",
+            "torque": "135 Nm"
+          },
+          "GR": {
+            "combustible": "Nafta",
+            "hp": 110,
+            "traccion": "Delantera",
+            "transmision": "Manual 5 vel",
+            "cilindrada": "1.9L",
+            "torque": "160 Nm"
+          },
+          "SRI": {
+            "combustible": "Nafta",
+            "hp": 110,
+            "traccion": "Delantera",
+            "transmision": "Manual 5 vel",
+            "cilindrada": "1.9L",
+            "torque": "160 Nm"
+          },
+          "Mi16": {
+            "combustible": "Nafta",
+            "hp": 160,
+            "traccion": "Delantera",
+            "transmision": "Manual 5 vel",
+            "cilindrada": "1.9L 16v",
+            "torque": "175 Nm"
+          }
+        }
+      },
+      "206": {
+        "versiones": ["XR", "XT", "XS", "RC"],
+        "especificaciones": {
+          "XR": {
+            "combustible": "Nafta",
+            "hp": 75,
+            "traccion": "Delantera",
+            "transmision": "Manual 5 vel",
+            "cilindrada": "1.4L",
+            "torque": "120 Nm"
+          },
+          "XT": {
+            "combustible": "Nafta",
+            "hp": 110,
+            "traccion": "Delantera",
+            "transmision": "Manual 5 vel",
+            "cilindrada": "1.6L",
+            "torque": "147 Nm"
+          },
+          "XS": {
+            "combustible": "Nafta",
+            "hp": 110,
+            "traccion": "Delantera",
+            "transmision": "Automática 4 vel",
+            "cilindrada": "1.6L",
+            "torque": "147 Nm"
+          },
+          "RC": {
+            "combustible": "Nafta",
+            "hp": 177,
+            "traccion": "Delantera",
+            "transmision": "Manual 5 vel",
+            "cilindrada": "2.0L 16v",
+            "torque": "202 Nm"
+          }
+        }
+      },
+      "208": {
+        "versiones": ["Active", "Allure", "GT Line", "GT"],
+        "especificaciones": {
+          "Active": {
+            "combustible": "Nafta",
+            "hp": 100,
+            "traccion": "Delantera",
+            "transmision": "Manual 5 vel",
+            "cilindrada": "1.2L",
+            "torque": "152 Nm"
+          },
+          "Allure": {
+            "combustible": "Nafta",
+            "hp": 130,
+            "traccion": "Delantera",
+            "transmision": "Automática 8 vel",
+            "cilindrada": "1.2L Turbo",
+            "torque": "230 Nm"
+          },
+          "GT Line": {
+            "combustible": "Nafta",
+            "hp": 130,
+            "traccion": "Delantera",
+            "transmision": "Automática 8 vel",
+            "cilindrada": "1.2L Turbo",
+            "torque": "230 Nm"
+          },
+          "GT": {
+            "combustible": "Nafta",
+            "hp": 156,
+            "traccion": "Delantera",
+            "transmision": "Automática 8 vel",
+            "cilindrada": "1.2L Turbo",
+            "torque": "240 Nm"
+          }
+        }
+      }
+    }
+  },
+  "volkswagen": {
+    "modelos": {
+      "Polo": {
+        "versiones": ["Trendline", "Comfortline", "Highline", "GTS"],
+        "especificaciones": {
+          "Trendline": {
+            "combustible": "Nafta",
+            "hp": 110,
+            "traccion": "Delantera",
+            "transmision": "Manual 5 vel",
+            "cilindrada": "1.6L",
+            "torque": "155 Nm"
+          },
+          "Comfortline": {
+            "combustible": "Nafta",
+            "hp": 128,
+            "traccion": "Delantera",
+            "transmision": "Automática 6 vel",
+            "cilindrada": "1.0L TSI",
+            "torque": "200 Nm"
+          },
+          "Highline": {
+            "combustible": "Nafta",
+            "hp": 128,
+            "traccion": "Delantera",
+            "transmision": "Automática 6 vel",
+            "cilindrada": "1.0L TSI",
+            "torque": "200 Nm"
+          },
+          "GTS": {
+            "combustible": "Nafta",
+            "hp": 150,
+            "traccion": "Delantera",
+            "transmision": "Automática 6 vel",
+            "cilindrada": "1.4L TSI",
+            "torque": "250 Nm"
+          }
+        }
+      },
+      "Amarok": {
+        "versiones": ["Comfortline", "Highline", "Extreme", "V6"],
+        "especificaciones": {
+          "Comfortline": {
+            "combustible": "Diesel",
+            "hp": 140,
+            "traccion": "4x2",
+            "transmision": "Manual 6 vel",
+            "cilindrada": "2.0L TDI",
+            "torque": "340 Nm"
+          },
+          "Highline": {
+            "combustible": "Diesel",
+            "hp": 180,
+            "traccion": "4x4",
+            "transmision": "Automática 8 vel",
+            "cilindrada": "2.0L TDI",
+            "torque": "400 Nm"
+          },
+          "Extreme": {
+            "combustible": "Diesel",
+            "hp": 180,
+            "traccion": "4x4",
+            "transmision": "Automática 8 vel",
+            "cilindrada": "2.0L TDI",
+            "torque": "400 Nm"
+          },
+          "V6": {
+            "combustible": "Diesel",
+            "hp": 258,
+            "traccion": "4x4",
+            "transmision": "Automática 8 vel",
+            "cilindrada": "3.0L V6 TDI",
+            "torque": "580 Nm"
+          }
+        }
+      }
+    }
+  }
+}
