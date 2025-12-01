@@ -61,7 +61,7 @@ const server = http.createServer((req, res) => {
   if (path === '/api/versiones' && req.method === 'GET') {
     const marca = parsedUrl.query.marca?.toLowerCase();
     const modelo = parsedUrl.query.modelo;
-
+//Verifica que vengan los parámetros obligatorios
     if (!marca || !modelo) {
       res.writeHead(400);
       res.end(JSON.stringify({ error: 'Parámetros "marca" y "modelo" requeridos' }));
