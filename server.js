@@ -9,7 +9,7 @@ const autosDB = JSON.parse(
 );
 
 const server = http.createServer((req, res) => {
-  // Headers CORS
+  //Crea un servidor en Node.js, Permite que cualquier página pueda conectarse (CORS), Si la petición es OPTIONS, responde “todo bien” y corta, Lee la URL
   res.setHeader('Access-Control-Allow-Origin', '*');
   res.setHeader('Access-Control-Allow-Methods', 'GET, OPTIONS');
   res.setHeader('Access-Control-Allow-Headers', 'Content-Type');
