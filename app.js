@@ -126,7 +126,7 @@ async function cargarModelos(marca) {
     //Limpio modelos anteriores
     container.replaceChildren();
 
-    //Spinner "Cargando modelos..."
+    //Spinner "Cargando modelos"
     const loadingCol = document.createElement('div');
     loadingCol.className = 'col-12 text-center';
 
